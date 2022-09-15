@@ -2,6 +2,25 @@ body {
     background-color:aliceblue
 }
 
+h1 {
+  font-family: Chiller;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: justify;
+  text-decoration: underline;
+  text-indent: 30px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: Chiller;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+}
+
 .name {
   color: brown;
 }
@@ -15,4 +34,26 @@ body {
   padding-left: 40px; 
   padding-right: 40px; 
   padding-top: 30px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.videowrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 60%;
+  width: 60%;
 }
